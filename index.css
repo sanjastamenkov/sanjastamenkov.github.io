@@ -1,0 +1,217 @@
+*{
+    box-sizing: border-box;
+}
+body, html, h1, h2, h3, h4, h5, h6, ul, li, p, form{
+    margin: 0;
+    padding: 0;
+}
+
+.d-inline-block{
+    display: inline-block;
+}
+.w-30{
+    width: 30%;
+}
+.w-33{
+    width: 33%;
+}
+.w-50{
+    width: 50%;
+}
+.pl-25{
+    padding-left: 25px;
+}
+.pl-80{
+    padding-left: 80px;
+}
+.pr-25{
+    padding-right: 25px;
+}
+.pb-20{
+    padding-bottom: 20px;
+}
+.pb-50{
+    padding-bottom: 50px;
+}
+.pt-80{
+    padding-top: 80px;
+}
+.pt-20{
+    padding-top: 20px;
+}
+.mt-6{
+    margin-top: 6px;
+}
+.mb-14{
+    margin-bottom: 14px;
+}
+.mt-20{
+    margin-top: 20px;
+}
+.ml-50{
+    margin-left: 50px;
+}
+.text-center{
+    text-align: center;
+}
+.text-height{
+    height: 215px;
+}
+.p{
+    font-size: 20px;   
+}
+
+.header{
+    background-image: url('./Images/banner.jpg');
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;    
+    position: relative;
+}
+.nav {
+    height: 100%;
+    line-height: 72px;
+    text-align: right;
+    margin-right: 50px;
+    text-transform: uppercase;
+}
+.nav-list {
+    height: 100%;
+}
+.nav-item {  
+    margin: 0 4px;
+    font-size: 24px;
+    cursor: pointer;
+}
+.h1{
+    font-weight: 700;
+    font-size: 48px;
+    color: white;
+    position: absolute;      
+    left: 500px;
+    bottom: 50%;
+}
+.text{
+    font-weight: 400;
+    font-size: 30px;    
+    position: absolute;      
+    left: 500px;
+    bottom: 30%;
+}
+.text-p{
+    color: white;
+}
+.hero{
+    padding: 30px 80px;    
+}
+.h2{    
+    font-weight: 700;
+    font-size: 36px;
+    text-align: center;
+    
+}
+.h2-white{
+    color: white;
+}
+.h3{
+    font-weight: 400;
+    font-size: 24px;    
+}
+.border{
+    border-right: 1px solid black;
+    height: 300px;
+}
+.ul-list{
+    list-style: none;
+    font-size: 20px;
+}
+.icons{
+    font-size: 36px;
+    font-weight: 500;
+    padding-right: 16px;
+}
+.projects{   
+    background-color: #737478;
+    padding-top: 30px;
+}
+.card-img{
+    width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+.services{   
+    padding-top: 30px;
+    padding-bottom: 30px;   
+}
+.wrapper{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: #6F6968;
+}
+.form{
+    margin-left: 24px;
+    margin-top: 24px;
+}
+.form label{
+    font-size: 16px;
+    font-weight: 500;
+}
+.form input[type="text"],
+.form input[type="number"],
+.form input[type="email"],
+.form textarea
+{
+    border: 2px solid #B5B2B3;
+    border-radius: 6px;
+    padding: 10px 8px;
+    color: #5A5858;
+    font-weight: 400;
+    font-size: 16px;   
+}
+.form input[type="file"] {
+    color:#A69C9C ;
+    font-weight: 400;
+    font-size: 14px;
+}
+.btn{
+    padding: 12px 32px;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+}
+.btn-primary{
+  color: black;
+  background-color: #B5B2B3;
+}
+.footer{
+    background-color: #B5B2B3;
+    height: 300px;
+    position: relative;    
+}
+.footer-item{    
+    margin: 20px;
+    font-style: italic;
+    font-size: 20px;
+    font-weight: 700;
+}
+.text-centar{
+    text-align: center;
+}
+.logo{
+    width: 10%;    
+    object-fit: cover;
+    position: absolute;
+    right: 50px;
+    top: 100px;
+}
+.form-label{
+    margin-left: 30px;
+    font-size: 20px;    
+}
+
+
+
+
+
+
